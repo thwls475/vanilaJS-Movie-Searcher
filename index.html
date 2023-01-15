@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Find Movie!</title>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/reset-css@5.0.1/reset.min.css">
+  <link rel="stylesheet" href="./main.css">
+  
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Sofia&display=swap" rel="stylesheet">
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/axios/1.2.2/axios.min.js" integrity="sha512-QTnb9BQkG4fBYIt9JGvYmxPpd6TBeKp6lsUrtiVQsrJ9sb33Bn9s0wMQO9qVBFbPX3xHRAsBHvXlcsrnJjExjg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+  <script defer type="module" src="./main.js"></script>
+</head>
+<body>
+
+  <!-- 검색창 -->
+  <div class="main">
+    <div class="search">
+      
+      <h1 class="main-logo">Find Movie!</h1>
+
+      <div class="search-bar">
+        <input class="main-search" type="text">
+        <button class="main-search-btn"></button>
+      </div>
+    
+    </div>
+  </div>
+
+
+  <!-- 검색 후 hader -->
+  <header class="main-header">
+
+    <div class="header-logo">
+      Find Movie!
+    </div>
+
+    <div class="header-search-bar">
+      <input id="search-input" type="text">
+      <button class="header-search-btn"></button>
+    </div>
+
+  </header>
+
+  <!-- section -->
+  <section class="movie"></section>
+
+</body>
+</html>

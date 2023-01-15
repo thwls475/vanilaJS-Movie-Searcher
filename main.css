@@ -1,0 +1,141 @@
+body {
+  font-family: 'Sofia', cursive;
+}
+
+
+/* 검색창 */
+.main {
+  position: fixed;
+  height: 100vh;
+  width: 100vw;
+  background-image: url(./main-bg.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.main .search {
+  margin-top: 20%;
+}
+
+.main .search h1 {
+  font-size: 100px;
+  color: #000;
+  text-align: center;
+}
+
+.main .search .search-bar {
+  display: flex;
+  justify-content: center;
+}
+
+.main .search .search-bar input {
+  height: 60px;
+  width: 400px;
+  background-color: rgba(0, 0, 0, .4);
+  border-radius: 20px;
+  border: none;
+  font-size: 40px;
+  color: #fff;
+}
+
+.main .search .search-bar .main-search-btn {
+  background-image: url(./search-btn-bk.png);
+  background-position: center;
+  background-size: 66px 66px;
+  background-color: transparent;
+  border: none;
+  padding: 1px 33px 1px 33px;
+  transform: rotate(7deg);
+}
+
+
+
+/* 검색 후 */
+
+.main-header {
+  position: relative;
+  display: flex;
+  z-index: -1;
+}
+
+.main-header .header-logo {
+  font-size: 75px;
+  padding: 40px 0 40px 30px;
+  background-color: transparent;
+  color: #fff;
+}
+
+.main-header .header-search-bar {
+  display: flex;
+  margin-top: 50px;
+  margin-left: auto;
+  margin-right: 40px;
+}
+
+.main-header .header-search-bar input {
+  height: 50px;
+  width: 300px;
+  background-color: rgba(68, 68, 68, 0.4);
+  border-radius: 20px;
+  border: none;
+  font-size: 40px;
+  color: #fff;
+}
+
+.main-header .header-search-bar .header-search-btn {
+  padding: 44px 44px 44px 15px;
+  background-image: url(./search-btn-wt.png);
+  background-position: top;
+  background-size: 45px 50px;
+  background-color: transparent;
+  background-repeat: no-repeat;
+  border: none;
+  transform: rotate(7deg);
+  position: relative;
+  z-index: -1;
+}
+
+
+
+
+
+
+.movie {
+  display: flex;
+  flex-wrap: wrap;
+  /* background-color: rgba(150, 150, 150, 0.4); */
+  width: 80vw;
+  height: 120vh;
+  margin: auto;
+  padding-top: 40px;
+  justify-content: space-around;
+}
+
+.movie .movie-wrapper {
+  display: flex;
+  flex-direction: column;
+  align-content: space-around;
+  width: 250px;
+  height: 375px;
+  color: #fff;
+}
+
+.movie .movie-wrapper .poster {
+  width: 100%;
+  height: auto;
+}
+
+.movie .movie-wrapper .title {
+  width: 100%;
+  height: auto;
+  font-size: 40px;
+  text-align: center;
+  padding-top: 20px;
+}
+
+.movie .movie-wrapper .year {
+  font-size: 20px;
+  text-align: center;
+  margin-bottom: 15px;
+  margin-top: 15px;
+}
